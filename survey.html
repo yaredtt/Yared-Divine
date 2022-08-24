@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html>
-
-<Header>
-<h1 id="title"> freeCodeCamp Survey Form</h1>
-</header> 
-
+    <head>
+        <link rel="stylesheet" href="survey.css">
+    </head> 
 <Body> 
+    <Header>
+        <h1 id="title"> FreeCodeCamp Survey Form</h1>
+        </header>
 <p id="description">Thank you for taking the time to help us improve the platform</p>
 
 <form id="survey-form">
-<label for="name" id="name-labe"> name</label>
-<input id="name" type ="text" name ="name" placeholder ="type name" required> </input>
+<label for="name" id="name-labe"> name</label><br>
+<input class="row" type ="text" name ="name" placeholder ="type name" required> </input>
 <br>
 
-<label for="email" id="email-label">email</label>
-<input id="email" type="text" name="email" placeholder ="type email" required> </input>
+<label for="email" id="email-label">email</label><br>
+<input class="row" type="text" name="email" placeholder ="type email" required> </input>
 <br>
-<label for="number" id="number-labe">age</label>
-<input id="number" type = "number" name = "number" placeholder = "type age" min="18" max="80" required></input>
+<label for="number" id="number-labe">age</label><br>
+<input class="row" type = "number" name = "number" placeholder = "type age" min="18" max="80" required></input>
 <br>
-<label for="dropdown" id="dropdown">select role</label>
+<label for="dropdown" id="dropdown">select role</label><br>
 <select id="dropdown">
 <option value="student">student</option>
 
@@ -52,7 +53,7 @@
 <br>
 <label id="textarea">additional comment</label>
 <br>
-<textarea id="textarea" name="intruction" rows="7" cols="20">
+<textarea class="row" name="intruction" rows="7" cols="20">
 </textarea>
 <br>
 <input id="submit" type="submit" value="submit"></input>
