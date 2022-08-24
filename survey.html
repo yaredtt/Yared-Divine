@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<Header>
+<h1 id="title"> freeCodeCamp Survey Form</h1>
+</header> 
+
+<Body> 
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+
+<form id="survey-form">
+<label for="name" id="name-labe"> name</label>
+<input id="name" type ="text" name ="name" placeholder ="type name" required> </input>
+<br>
+
+<label for="email" id="email-label">email</label>
+<input id="email" type="text" name="email" placeholder ="type email" required> </input>
+<br>
+<label for="number" id="number-labe">age</label>
+<input id="number" type = "number" name = "number" placeholder = "type age" min="18" max="80" required></input>
+<br>
+<label for="dropdown" id="dropdown">select role</label>
+<select id="dropdown">
+<option value="student">student</option>
+
+<option value="fulltime_learner">full time learner</option>
+<option value="fulltime_job">full time job</option>
+</select>
+<br>
+<br>
+
+<label for="recommend" id="recommend">recomendation of freecodecamp to friend</label>
+
+<input id="recommend" type="radio" id="defnitely" name="recommend" value="definitely"> </input>
+<label for="recommend">definitely</label>
+<br>
+<input id="recommend" type="radio" id="maybe" name="recommend" value="maybe"> </input>
+<label for="recommend">may be</label>
+<br>
+
+<label for="improve">improve</label>
+<br>
+
+<input id="checkbox" type="checkbox" name="improve" value="front-end"></input>
+<label for="checkbox">front-end projects</label> 
+<br>
+<input id="checkbox" type="checkbox" name="improve" value="back-end"></input>
+<label for="checkbox">back-end projects</label> 
+<br>
+<br>
+<label id="textarea">additional comment</label>
+<br>
+<textarea id="textarea" name="intruction" rows="7" cols="20">
+</textarea>
+<br>
+<input id="submit" type="submit" value="submit"></input>
+</form>
+
+</body>
+
+
+</html>
